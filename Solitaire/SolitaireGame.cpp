@@ -40,7 +40,7 @@ int main()
         deck.push_back(card);
     }
 
-    std::cout << '\x03';
+    
     auto itDeck = deck.begin();
     for (int i = 1; i < 8; ++i) {
         advance(itDeck, i);
